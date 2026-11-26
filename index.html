@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DeowolfDevs · Sable Mail</title>
+<meta name="description" content="DeowolfDevs builds small self-hosted tools. Sable Mail reads service notification emails, read-only, to keep private status dashboards current.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">deowolf<span>devs</span></a>
+    <nav><a href="./" aria-current="page">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>DeowolfDevs</h1>
+    <p class="lede">Small, self-hosted tools for monitoring and running a home lab and a handful of personal projects.</p>
+
+    <section class="card" id="sable-mail">
+      <span class="tag">Application</span>
+      <h2>Sable Mail</h2>
+      <p>Sable Mail is a private, self-hosted service that connects to the developer's own Gmail account with <strong>read-only</strong> access. It reads service notification emails (alerts from uptime monitors, status pages, and similar automated senders) and turns them into status entries on private dashboards, including an Uptime Kuma instance.</p>
+      <h3>What it does</h3>
+      <ul>
+        <li>Signs in with Google using OAuth, requesting read-only Gmail access.</li>
+        <li>Looks for notification emails from known monitoring and status senders.</li>
+        <li>Shows the state those emails describe (up, down, incident, resolved) on dashboards the developer runs for themselves.</li>
+      </ul>
+      <h3>What it does not do</h3>
+      <ul>
+        <li>It never sends, deletes, labels, or changes email.</li>
+        <li>It does not sell, share, or advertise with any data, and does not use Google user data to train AI models.</li>
+        <li>It is not a public service. Accounts belong to the developer.</li>
+      </ul>
+      <div class="links">
+        <a class="btn" href="privacy.html">Privacy Policy</a>
+        <a class="btn" href="terms.html">Terms of Service</a>
+      </div>
+    </section>
+
+    <h2>Contact</h2>
+    <p>Questions about Sable Mail or this site: <a href="https://github.com/DeowolfDevs/deowolfdevs.github.io/issues">open an issue on GitHub</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 DeowolfDevs</span>
+    <span><a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a></span>
+  </div>
+</footer>
+</body>
+</html>

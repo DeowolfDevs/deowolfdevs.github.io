@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Sable Mail · DeowolfDevs</title>
+<meta name="description" content="Privacy Policy for Sable Mail by DeowolfDevs: what Google user data it reads, how it is used, stored, and deleted.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">deowolf<span>devs</span></a>
+    <nav><a href="./">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Sable Mail, by DeowolfDevs &middot; Effective 25 November 2026</p>
+
+    <p>This policy explains how <strong>Sable Mail</strong> ("the app"), a self-hosted service operated by DeowolfDevs, accesses, uses, stores, and shares data when it connects to a Google account. It applies to the app and to this website.</p>
+
+    <h2>Who uses the app</h2>
+    <p>Sable Mail is a private tool. It is operated by its developer for their own accounts and is not offered to the public. Nobody else's account is connected to it.</p>
+
+    <h2>Google user data the app accesses</h2>
+    <p>With your permission through Google's sign-in screen, the app requests <strong>read-only access to Gmail</strong> (<code>https://www.googleapis.com/auth/gmail.readonly</code>). With it, the app can read:</p>
+    <ul>
+      <li>message metadata such as sender, subject, and date; and</li>
+      <li>the content of notification emails from monitoring and status services (for example, uptime alerts).</li>
+    </ul>
+    <p>The app cannot send, delete, modify, or label email, and it does not request access to contacts, Drive, Calendar, or any other Google service.</p>
+
+    <h2>How the data is used</h2>
+    <p>The app uses Gmail data for one purpose only: to find automated notification emails and show the status they report (up, down, incident, resolved) on private dashboards the developer runs, such as an Uptime Kuma instance. Other emails are skipped and not kept.</p>
+
+    <h2>Storage and retention</h2>
+    <ul>
+      <li>OAuth tokens are stored only on the developer's own server, protected by operating-system access controls, and are never published or shared.</li>
+      <li>The app keeps only the derived status (service name, state, time) needed to display the dashboards. It does not keep copies of email bodies.</li>
+      <li>Derived status entries are kept only as long as they are useful for the dashboards' history, and can be deleted at any time.</li>
+    </ul>
+
+    <h2>Sharing</h2>
+    <p>Google user data is not sold, rented, or shared with anyone. It is not transferred to third parties, not used for advertising, not used to determine creditworthiness or for lending, and not used to develop, improve, or train generalized AI or machine-learning models. No person reads email through the app except the account owner, who is also the developer.</p>
+
+    <h2>Limited Use disclosure</h2>
+    <div class="note">
+      <p style="margin:0">Sable Mail's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    </div>
+
+    <h2>Security</h2>
+    <p>The app connects to Google only over encrypted HTTPS. It runs on infrastructure controlled by the developer, and access to the server and its stored tokens is restricted.</p>
+
+    <h2>Revoking access and deleting data</h2>
+    <p>Access can be revoked at any time from your Google Account at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Once access is revoked, the app can no longer read any email, and its stored tokens stop working and are deleted. To ask for any stored data to be deleted, use the contact link below.</p>
+
+    <h2>Children</h2>
+    <p>The app is not directed to children under 13 and does not knowingly collect their data.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or requests about this policy: <a href="https://github.com/DeowolfDevs/deowolfdevs.github.io/issues">open an issue on GitHub</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 DeowolfDevs</span>
+    <span><a href="./">Home</a> &middot; <a href="terms.html">Terms</a></span>
+  </div>
+</footer>
+</body>
+</html>
